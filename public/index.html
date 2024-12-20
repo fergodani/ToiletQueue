@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Turno para el baño</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <h1>Turno para el baño</h1>
   <div id="queue"></div>
-  <button id="join">Entrar en la cola</button>
-  <button id="leave">Salir de la cola</button>
+  <div id="buttons">
+    <button id="join">Pedir turno</button>
+    <button id="leave">Salir</button>
+    <button id="change">Cambiar nombre</button>
+  </div>
   <script src="/socket.io/socket.io.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>

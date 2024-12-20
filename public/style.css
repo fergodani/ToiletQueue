@@ -61,6 +61,12 @@ body {
   button:active {
     background-color: #003f88;
   }
+
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
   /* Mobile-Friendly */
   @media (max-width: 600px) {
@@ -72,10 +78,9 @@ body {
       max-width: 95%;
       padding: 10px;
     }
-  
+    
     button {
-      padding: 10px 15px;
-      font-size: 14px;
+      padding: 20px 28px
     }
   }
   
